@@ -11,8 +11,9 @@ def convertidor(grados):
 
 
 radianes = convertidor(45)
-print("El resultado en radianes es: " + str(radianes))
 seno = math.sin(radianes)
+
+print("El resultado en radianes es: " + str(radianes))
 print("Y el seno es: " + str(seno))
 
 
